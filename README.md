@@ -57,7 +57,7 @@ public class Application {
     </appender>
 
     <root level="${ROOT_LEVEL}">
-        <appender-ref ref="ELK-REDIS"/>
+        <appender-ref ref="ASYNC_ELK"/>
     </root>
 
 </configuration>
